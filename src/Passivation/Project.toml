@@ -1,0 +1,25 @@
+name = "Passivation"
+uuid = "222273ac-9784-492f-a171-4103ce6f9524"
+authors = ["Jonas Nicodemus <jonas.nicodemus@icloud.com> and contributors"]
+version = "1.0.0"
+
+[deps]
+ControlSystemsBase = "aaaaaaaa-a6ca-5380-bf3e-84a91bcd477e"
+FiniteDifferences = "26cc04aa-876d-5657-8c51-4c34ba976000"
+Hypatia = "b99e6be6-89ff-11e8-14f8-45c827f4f8f2"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MatrixEquations = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+Plots = "1.40.9"
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

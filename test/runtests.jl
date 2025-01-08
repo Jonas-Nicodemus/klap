@@ -1,15 +1,12 @@
 using DrWatson, Test
 @quickactivate "klap"
 
-# Here you include files using `srcdir`
-# include(srcdir("file.jl"))
-
 # Run test suite
 println("Starting tests")
 ti = time()
 
-@testset "klap tests" begin
-    @test 1 == 1
+@testset "KLAP" begin
+    include(srcdir("Passivation", "test", "runtests.jl"))
 end
 
 ti = time() - ti
