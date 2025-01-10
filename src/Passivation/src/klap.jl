@@ -1,7 +1,7 @@
 """
     klap(Σ::StateSpace; L0=L0(Σ), M=M(Σ), P=gram(Σ, :c); recycl=:schur, restart=false, α=1e-8, ε=1e-4, verbose=true, kwargs...) -> Σp, res
 
-Passivates a system `Σ` using the KLAP method. The optimization problem is solved using LBFGS.
+Passivates a system `Σ` using the KLAP method [NVGU25](@cite). The optimization problem is solved using LBFGS.
 """
 function klap(Σ::StateSpace, L0=L0(Σ), M=M(Σ), P=gram(Σ, :c); recycl=:schur, restart=false, α=1e-8, ε=1e-4, verbose=true, kwargs...)
     if isdiag(Σ.A)
@@ -68,7 +68,8 @@ end
     klap_inital_guess(Σ, ΔD=0.0; ε=0) -> L0, ΔD
 
 Computes an initial guess for the KLAP optimization problem. The initial guess is computed by perturbing the feedthrough matrix to achieve a passive realization.
-Then the perturbed system is used to compute the initial guess. The perturbation `ΔD` can be specified, otherwise it is computed using `ΔD(Σ)`.
+Then the perturbed system is used to compute the initial guess, see [NVGU25](@cite) for details. 
+The perturbation `ΔD` can be specified, otherwise it is computed using `ΔD(Σ)`.
 """
 function klap_inital_guess(Σ, ΔD=0.0; ε=0)
     ΔD = ΔD > 0 ? ΔD : Passivation.ΔD(Σ, ε=ε)

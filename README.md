@@ -3,10 +3,10 @@
 [![Documentation Status][docs-shield]][docs-url]
 [![MIT License][license-shield]][license-url]
 
-[doi-shield]: https://img.shields.io/badge/DOI-10.XXXX%20%2F%20zenodo.XXXXXXX-blue.svg?style=for-the-badge
-[doi-url]: https://doi.org/
-[arxiv-shield]: https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg?style=for-the-badge
-[arxiv-url]: https://arxiv.org/
+[doi-shield]: https://img.shields.io/badge/DOI-10.5281%20%2F%20zenodo.14617036-blue.svg?style=for-the-badge
+[doi-url]: https://doi.org/10.5281/zenodo.14617036
+[arxiv-shield]: https://img.shields.io/badge/arXiv-2501.05178-b31b1b.svg?style=for-the-badge
+[arxiv-url]: https://doi.org/10.48550/arXiv.2501.05178
 [license-shield]: https://img.shields.io/github/license/Jonas-Nicodemus/klap.svg?style=for-the-badge
 [license-url]: https://github.com/Jonas-Nicodemus/klap/blob/main/LICENSE
 [project-url]:https://github.com/Jonas-Nicodemus/klap/
@@ -14,7 +14,7 @@
 [docs-url]:https://jonas-nicodemus.github.io/klap/
 
 # KLAP: KYP Lemma based low-rank approximation for $\mathcal{H}_2$-optimal passivation
-This repository contains the code for the paper [KLAP: KYP Lemma based low-rank approximation for $\mathcal{H}_2$-optimal passivation][arxiv-url].
+This repository contains the code for the paper [KLAP: KYP Lemma based low-rank approximation for H2-optimal passivation][arxiv-url].
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -34,7 +34,7 @@ If you use this project for academic work, please consider citing our
 
     J. Nicodemus, M. Voigt, S. Gugercin, and B. Unger
     KLAP: KYP Lemma based low-rank approximation for $\mathcal{H}_2$-optimal passivation
-    ArXiv e-print XXXX.XXXXX, 2025.
+    ArXiv e-print 2501.05178, 2025.
 
 ## Installation
 This code base is using the [Julia Language](https://julialang.org/) and

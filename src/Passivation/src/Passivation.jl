@@ -18,7 +18,7 @@ include("popov.jl")
 
 Passivate the system `Σ` using the method `method`. The available methods are:
 
-- `:klap`: KLAP optimization
+- `:klap`: KLAP optimization [NVGU25](@cite)
 - `:lmi`: LMI optimization [GS21](@cite)
 - `:lmi_tp`: LMI optimization with trace parametrization [Dum02, CPS04](@cite)
 

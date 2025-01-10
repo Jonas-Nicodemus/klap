@@ -1,13 +1,13 @@
 # KLAP: KYP Lemma based low-rank approximation for $\mathcal{H}_2$-optimal passivation
-This repository contains the code for the paper [KLAP: KYP Lemma based low-rank approximation for $\mathcal{H}_2$-optimal passivation](https://arxiv.org).
+This repository contains the code for the paper [KLAP: KYP Lemma based low-rank approximation for $\mathcal{H}_2$-optimal passivation](https://doi.org/10.48550/arXiv.2501.05178).
 
 ## Citing
 If you use this project for academic work, please consider citing our
-[publication](https://arxiv.org):
+[publication](https://doi.org/10.48550/arXiv.2501.05178):
 
     J. Nicodemus, M. Voigt, S. Gugercin, and B. Unger
     KLAP: KYP Lemma based low-rank approximation for $\mathcal{H}_2$-optimal passivation
-    ArXiv e-print XXXX.XXXXX, 2025.
+    ArXiv e-print 2501.05178, 2025.
 
 ## Installation
 This code base is using the [Julia Language](https://julialang.org/) and
